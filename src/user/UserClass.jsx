@@ -1,10 +1,10 @@
-import React, { Component } from 'react'
+import { Component } from 'react'
 
 export default class UserClass extends Component {
   render() {
+    const { name, years } = this.props
     return (
-      <div>UserClass</div>
+      <p>Pozdrav, moje ime je {name} i imam {years} godina.</p>
     )
   }
 }
-
